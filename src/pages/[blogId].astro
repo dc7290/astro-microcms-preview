@@ -27,11 +27,3 @@ const blog = await getBlogDetail(blogId);
     <div class="post" set:html={blog.content} />
   </main>
 </Layout>
-
-<style>
-  main {
-    margin: auto;
-    padding: 1em;
-    max-width: 60ch;
-  }
-</style>
